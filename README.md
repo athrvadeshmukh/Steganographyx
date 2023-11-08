@@ -1,4 +1,4 @@
-# Steganography
+# Steganographyx
 
  Copyright [2023] [Athrva Deshmukh]
 
