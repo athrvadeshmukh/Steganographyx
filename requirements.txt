@@ -1,0 +1,4 @@
+tkinter
+pillow
+numpy
+
