@@ -1,5 +1,7 @@
 # Steganography
 
+ Copyright [2023] [Athrva Deshmukh]
+
 ![Screenshot 2023-11-08 215324](https://github.com/athrvadeshmukh/Steganography/assets/112002659/611b9b1a-f113-4dcc-8003-6e495fdba0b7)
 ![Screenshot 2023-11-08 215347](https://github.com/athrvadeshmukh/Steganography/assets/112002659/2a95ae39-e13c-4930-b5c1-5cf8b9f027c5)
 ![Screenshot 2023-11-08 215403](https://github.com/athrvadeshmukh/Steganography/assets/112002659/20093fe8-5462-41c8-98a3-6e6403cdd455)
