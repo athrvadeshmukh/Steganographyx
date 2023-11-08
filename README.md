@@ -2,8 +2,9 @@
 
  Copyright [2023] [Athrva Deshmukh]
 
-![Screenshot 2023-11-08 215324](https://github.com/athrvadeshmukh/Steganography/assets/112002659/611b9b1a-f113-4dcc-8003-6e495fdba0b7)
-![Screenshot 2023-11-08 215347](https://github.com/athrvadeshmukh/Steganography/assets/112002659/2a95ae39-e13c-4930-b5c1-5cf8b9f027c5)
-![Screenshot 2023-11-08 215403](https://github.com/athrvadeshmukh/Steganography/assets/112002659/20093fe8-5462-41c8-98a3-6e6403cdd455)
-![Screenshot 2023-11-08 215423](https://github.com/athrvadeshmukh/Steganography/assets/112002659/a15f56aa-8dd3-4a4b-bfa9-fa5e67cc417a)
-![Screenshot 2023-11-08 215442](https://github.com/athrvadeshmukh/Steganography/assets/112002659/b08edba0-03f1-4c38-a715-527b484a2267)
+
+![Screenshot 2023-11-08 215324](https://github.com/athrvadeshmukh/Steganography/assets/112002659/ec27df9b-bffc-4652-ad69-572ae869fe1a)
+![Screenshot 2023-11-08 215347](https://github.com/athrvadeshmukh/Steganography/assets/112002659/95687878-500f-470a-88a4-af81c3d83dcd)
+![Screenshot 2023-11-08 215403](https://github.com/athrvadeshmukh/Steganography/assets/112002659/32b23071-ed10-42bc-82d5-b0e53fb4d05f)
+![Screenshot 2023-11-08 215423](https://github.com/athrvadeshmukh/Steganography/assets/112002659/5f53581c-ad8f-4cd6-b547-88381c76fac5)
+![Screenshot 2023-11-08 215442](https://github.com/athrvadeshmukh/Steganography/assets/112002659/5e879a0e-12ff-46ad-802b-487fad44bfd5)
