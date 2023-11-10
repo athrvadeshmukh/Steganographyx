@@ -18,4 +18,4 @@ Steganography can be used to conceal almost any type of digital content, includi
 
 
 
- Copyright 2023 Athrva Deshmukh[@athrvadeshmukh]
+ Copyright [2023] [ATHRVA DESHMUKH](https://github.com/athrvadeshmukh)
