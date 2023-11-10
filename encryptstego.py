@@ -1,3 +1,5 @@
+# Created by Athrva Deshmukh
+# https://github.com/athrvadeshmukh
 # Import necessary libraries
 from tkinter import *
 from ctypes import windll
