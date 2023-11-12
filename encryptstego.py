@@ -237,7 +237,7 @@ if windows:
     windll.shcore.SetProcessDpiAwareness(1)
 
 # Load the logo image
-logo = Image.open("icon.jpg")
+logo = Image.open("icon.png")
 logo = logo.resize((250, 250), Image.LANCZOS)
 logo = ImageTk.PhotoImage(logo)
 window.iconphoto(True, logo)
