@@ -1,5 +1,3 @@
-# Created by Athrva Deshmukh
-# https://github.com/athrvadeshmukh
 # Import necessary libraries
 from tkinter import *
 from ctypes import windll
@@ -8,13 +6,16 @@ from PIL import ImageTk, Image
 import subprocess
 import encode
 import decode
+import HiddenWave
+import ExWave
+import os
 
 # Define global variables to track child window states
 encode_opened = False
 decode_opened = False
 help_opened = False
 windows = True  # Set to 'False' for non-Windows environments
-file_path = ""  # Store the path of the selected image
+file_path = " "  # Store the path of the selected image
 
 # Function to open the encoding window
 def open_encode_window():
@@ -159,14 +160,16 @@ def browse_image(image_frame):
     global file_path
     file_path = filedialog.askopenfilename(title="Choose an Image",
                                            filetypes=(("Image Files", "*.png"), ("All Files", "*.*")))
-    selected_image = Image.open(file_path)
-    max_width = 350
-    aspect_ratio = max_width / float(selected_image.size[0])
-    max_height = int((float(selected_image.size[1]) * float(aspect_ratio)))
-    selected_image = selected_image.resize((max_width, max_height), Image.ANTIALIAS)
-    selected_image = ImageTk.PhotoImage(selected_image)
-    image_frame.config(image=selected_image, height=304, width=354)
-    image_frame.image = selected_image
+    
+    if file_path:
+        selected_image = Image.open(file_path)
+        max_width = 350
+        aspect_ratio = max_width / float(selected_image.size[0])
+        max_height = int((float(selected_image.size[1]) * float(aspect_ratio)))
+        selected_image = selected_image.resize((max_width, max_height), Image.LANCZOS)
+        selected_image = ImageTk.PhotoImage(selected_image)
+        image_frame.config(image=selected_image, height=304, width=354)
+        image_frame.image = selected_image
 
 # Function to handle closing of encoding window
 def close_encode_window(encode_window):
@@ -234,7 +237,7 @@ if windows:
     windll.shcore.SetProcessDpiAwareness(1)
 
 # Load the logo image
-logo = Image.open("images/logo.jpg")
+logo = Image.open("icon.jpg")
 logo = logo.resize((250, 250), Image.LANCZOS)
 logo = ImageTk.PhotoImage(logo)
 window.iconphoto(True, logo)
