@@ -103,7 +103,7 @@ class HiddenWaveGUI:
 
     def display_logo(self):
         # Load and display the logo image
-        logo_image = Image.open("logo.jpg")
+        logo_image = Image.open("logo.png")
         logo_image = logo_image.resize((200, 156), Image.LANCZOS)
         logo_image = ImageTk.PhotoImage(logo_image)
         self.logo_label.config(image=logo_image)
