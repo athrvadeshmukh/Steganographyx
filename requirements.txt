@@ -1,4 +1,6 @@
 tkinter
 pillow
 numpy
-
+pycryptodome
+pyaudio
+wave
