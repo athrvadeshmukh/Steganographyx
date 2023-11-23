@@ -8,6 +8,14 @@ Steganography can be used to conceal almost any type of digital content, includi
 # Overview
 The steganography program provided is a Python application that facilitates hiding and extracting secret messages in various media, including images and wave audio files. The program utilizes cryptographic techniques to encode and decode messages securely.
 
+## Installation
+
+To use Steganographyx, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/athrvadeshmukh/Steganographyx.git
+
 # Libraries
 Ensure you have the following Python libraries installed to run the program:
 
