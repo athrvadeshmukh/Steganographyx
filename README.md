@@ -30,7 +30,9 @@ pip install pycryptodome
 ```
 
 # NumPy: Purpose: Required for numerical operations, especially in the image steganography program.
+```
 pip install numpy
+```
 
 # PyAudio: Purpose: Required for wave audio steganography programs to work with audio files.
 ```
