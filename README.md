@@ -16,9 +16,9 @@ The steganography program provided is a Python application that facilitates hidi
 To use Steganographyx, follow these steps:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/athrvadeshmukh/Steganographyx.git
-   ```
+```
+git clone https://github.com/athrvadeshmukh/Steganographyx.git
+```
 
 # Libraries
 Ensure you have the following Python libraries installed to run the program:
