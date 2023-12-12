@@ -1,6 +1,6 @@
 # Steganographyx
 
-# Steganographyx is an open source project you can contribute in it and can modify and update the new build. You can generate pull request in order to contribute in this project.
+# Steganographyx is an open source project you can contribute in it and can modify and update the new build. You can generate pull request in order to contribute in this project and make it more easy to use and more advanced for users.
 
 # What is steganography?
 
