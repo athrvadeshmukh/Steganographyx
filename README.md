@@ -2,6 +2,56 @@
 
 # Steganographyx is an open source project you can contribute in it and can modify and update the new build. You can generate pull request in order to contribute in this project and make it more easy to use and more advanced for users.
 
+
+To contribute to the Steganographyx repository, you can follow these steps and update the README file accordingly:
+
+# Contributing to Steganographyx
+Steganographyx is an open-source project, and we welcome contributions from the community to make it more user-friendly and advanced. Here's how you can contribute:
+
+# How to Contribute
+1. Fork the Repository:
+2. Go to the Steganographyx repository.
+3. Click on the ```Fork``` button in the upper right corner to create your own copy of the repository.
+4. Clone your Fork:
+Clone the repository to your local machine using the following command:
+```
+git clone https://github.com/your-username/Steganographyx.git
+```
+5. Install Dependencies Navigate to the cloned directory and install the required Python libraries:
+```
+pip install Pillow pycryptodome numpy pyaudio
+```
+
+6. Make Changes:
+a. Make your desired changes or additions to the codebase.
+b. Test your Changes: Ensure that your changes work as expected and do not introduce any new issues.
+c. Commit your Changes: Commit your changes with a descriptive commit message:
+```
+git add .
+```
+
+```
+git commit -m "Your descriptive commit message"
+```
+7. Push Changes to your Fork: Push your changes to your fork on GitHub:
+```
+git push origin master
+```
+
+8. Create a Pull Request (PR):
+9. Go to your fork on GitHub and click on the "New Pull Request" button.
+10. Provide a meaningful title and description for your pull request.
+11. Submit the pull request.
+12. Project Structure- The Steganographyx project is organized into two main sections: Image Steganography and Wave Audio Steganography. Each section has its set of classes and methods:
+Image Steganography:
+
+Encode class: Handles encoding (hiding) secret messages within images.
+Decode class: Handles decoding (extracting) secret messages from images.
+Wave Audio Steganography:
+
+ExtractWaveGUI class: Provides a GUI for extracting hidden messages from wave audio files.
+HiddenWaveGUI class: Provides a GUI for hiding messages in wave audio files.
+
 # What is steganography?
 
 Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection; the hidden data is then extracted at its destination. Steganography use can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek word steganos, meaning "hidden or covered," and the Greek root graph, meaning "to write."
@@ -110,6 +160,7 @@ Feel free to reach out if you have any questions or need further assistance!
 
 # Licence 
 Copyright 2023 Athrva Deshmukh
+License
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -122,5 +173,5 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
+Steganographyx is licensed under the Apache License, Version 2.0. See the License file for more details.
 Copyright 2023 [ATHRVA DESHMUKH](https://github.com/athrvadeshmukh)
